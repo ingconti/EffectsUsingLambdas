@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Player {
 
-    private int lifes = 0;
+    private int lifes = 10;
    private ArrayList<String> weapons = new ArrayList<String>();
 
     boolean decreaseLifes(){
@@ -19,4 +19,9 @@ public class Player {
         weapons.add(weapon);
     }
 
+    void showStatus(){
+        System.out.println( lifes );
+        System.out.println( weapons );
+
+    }
 }

@@ -7,6 +7,7 @@ public class App
     {
         System.out.println( "Fake Adreanalina" );
         Game game = new Game();
+        game.run();
 
     }
 
