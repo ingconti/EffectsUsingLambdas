@@ -11,13 +11,13 @@ public class Game {
     private void initCards() {
         Card c1 = new Card("Terminator");
         cards.add(c1);
-        /// add other cards...
+        // add other cards...
 
         /// use current user....
         Player p = getCurrPlayer();
 
         for (Card c : cards) {
-            // get effectsfor every card...
+            // get effects for every card...
             ArrayList<Effect> effects = c.getEffects();
             for (Effect e : effects) {
                 e.applyOn(p);
@@ -25,7 +25,7 @@ public class Game {
         }
 
         // let's see player:
-        p.showStatus();;
+        p.showStatus();
 
     }
 
