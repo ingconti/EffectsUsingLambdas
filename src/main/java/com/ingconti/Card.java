@@ -15,7 +15,7 @@ public class Card {
     Card(String jsonName){
 
         // let' s create a list of effects:
-        //(in real game we can load and modle it form JSON....)
+        //(in real game we can load and modle it from JSON....)
 
         Effect eff1 = (p) -> {
             p.addWeapon("gun");
@@ -29,7 +29,7 @@ public class Card {
         effects.add(eff2);
     }
 
-
+// and you can create a factory for effects so you can write them once...
 
     public ArrayList<Effect> getEffects(){
         return  effects;
