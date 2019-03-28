@@ -1,3 +1,3 @@
 # EffectsUsingLambdas
 
-Very basic sample to use lambdas for creating action on a Player.
+Very basic sample to use lambdas to create action on a Player.
