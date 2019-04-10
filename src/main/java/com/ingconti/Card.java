@@ -15,7 +15,7 @@ public class Card {
     Card(String jsonName){
 
         // let' s create a list of effects:
-        //(in real game we can load and modle it from JSON....)
+        //(in real game we can load and model it from JSON....)
 
         Effect eff1 = (p) -> {
             p.addWeapon("gun");
